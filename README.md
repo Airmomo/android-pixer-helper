@@ -28,7 +28,9 @@
 - opencv_python==4.6.0.66
 - Pillow==9.2.0
 - PyQt5==5.15.7
+
 **注意：PyQt5在Mac平台安装复杂、以及对Python3.7以上都不太兼容，直接通过pip安装可能会报错，需要自行搜索正确的安装方法，这里就不冗述了**
+
 # 跨平台实现
 **本项目与安卓设备的交互主要通过adb实现，只需要在初始化安卓对象时选择对应系统的adb文件即可**
 adb文件存在目录`tools/platform-tools-*`下，也可以自行到官网下载->[传送门](https://developer.android.com/studio/command-line/adb)
